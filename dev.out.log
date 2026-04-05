@@ -1,0 +1,36 @@
+
+> catalogo-react@0.1.0 dev
+> next dev --webpack
+
+▲ Next.js 16.2.2 (webpack)
+- Local:         http://localhost:3000
+- Network:       http://26.158.82.7:3000
+- Environments: .env
+✓ Ready in 929ms
+
+ GET /api/health 200 in 1134ms (next.js: 835ms, proxy.ts: 265ms, application-code: 34ms)
+ GET /api/health 200 in 35ms (next.js: 5ms, proxy.ts: 24ms, application-code: 7ms)
+ GET /api/health 200 in 20ms (next.js: 4ms, proxy.ts: 9ms, application-code: 7ms)
+ GET /api/health 200 in 13ms (next.js: 3ms, proxy.ts: 6ms, application-code: 4ms)
+ GET / 307 in 3.0s (next.js: 1932ms, proxy.ts: 935ms, application-code: 146ms)
+ GET /landing 200 in 941ms (next.js: 588ms, proxy.ts: 204ms, application-code: 149ms)
+○ Compiling /products ...
+ GET /pricing 200 in 9.2s (next.js: 675ms, proxy.ts: 8.4s, application-code: 84ms)
+ GET /pricing 200 in 387ms (next.js: 3ms, proxy.ts: 345ms, application-code: 38ms)
+ GET /products 200 in 33.7s (next.js: 5ms, proxy.ts: 62ms, application-code: 33.6s)
+ GET /products 200 in 38.1s (next.js: 3.6s, proxy.ts: 64ms, application-code: 34.4s)
+ GET /categories 200 in 3.0s (next.js: 920ms, proxy.ts: 573ms, application-code: 1517ms)
+○ Compiling /billing ...
+ GET /settings 200 in 34.1s (next.js: 18ms, proxy.ts: 1943ms, application-code: 32.1s)
+ GET /categories 200 in 54s (next.js: 3ms, proxy.ts: 217ms, application-code: 54s)
+ GET /export 200 in 54s (next.js: 3.9s, proxy.ts: 325ms, application-code: 50s)
+ GET /billing 200 in 54s (next.js: 2.8s, proxy.ts: 1383ms, application-code: 50s)
+ GET /settings 200 in 61s (next.js: 1124ms, proxy.ts: 348ms, application-code: 59s)
+▲ Next.js 16.2.2 (webpack)
+- Local:         http://localhost:3000
+- Network:       http://26.158.82.7:3000
+- Environments: .env
+✓ Ready in 1130ms
+
+○ Compiling /settings ...
+ GET /settings 200 in 30.5s (next.js: 6.9s, proxy.ts: 1048ms, application-code: 22.6s)
